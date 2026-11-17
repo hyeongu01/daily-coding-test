@@ -1,0 +1,1245 @@
+{
+  "version": 1,
+  "initialized_at": "2026-11-17T16:08:27",
+  "known_files": [
+    "src/y2026/m08/D07_LongestSubstringWithoutRepeatingCharacters.java",
+    "src/y2026/m08/D07_SmallestDivisibleDigitProduct2.java",
+    "src/y2026/m08/D09_MoveZeroes.java",
+    "src/y2026/m08/D10_CanPlaceFlowers.java",
+    "src/y2026/m08/D10_GreatestCommonDivisorOfStrings.java",
+    "src/y2026/m08/D10_KidsWithTheGretestNumberOfCandies.java",
+    "src/y2026/m08/D11_SmallestMissingIntegerGreaterThenSequentialPrefixSum.java",
+    "src/y2026/m08/D12_LengthOfLongestSubarrayWithAtMostKFrequency.java",
+    "src/y2026/m08/D13_DailyTemperatures.java",
+    "src/y2026/m08/D13_ExclusiveTimeOfFunctions.java",
+    "src/y2026/m08/D13_FinalPricesWithASpecialDiscountInAShop.java",
+    "src/y2026/m08/D14_LargestRectangleInHistogram.java",
+    "src/y2026/m08/D14_MaximumLengthSubstringWithTwoOccurrences.java",
+    "src/y2026/m08/D17_ReverseVowelsOfAString.java",
+    "src/y2026/m08/D18_ContainerWithMostWater.java",
+    "src/y2026/m08/D18_FindTheLargestAlmostMissingInteger.java",
+    "src/y2026/m08/D18_MoveZeroes.java",
+    "src/y2026/m08/D19_CinemaSeatAllocation.java",
+    "src/y2026/m08/D19_MaxNumberOfKSumPairs.java",
+    "src/y2026/m08/D20_DistributeElementsIntoTwoArrays1.java",
+    "src/y2026/m08/D20_FindKPairsWithSmallestSums.java",
+    "src/y2026/m08/D20_MaximumNumberOfVowelsInASubstringOfGivenLength.java",
+    "src/y2026/m08/D20_ProductOfArrayExceptSelf.java",
+    "src/y2026/m08/D21_AsteroidCollision.java",
+    "src/y2026/m08/D21_DetermineIfTwoStringsAreClose.java",
+    "src/y2026/m08/D21_RemovingStarsFromAString.java",
+    "src/y2026/m08/D21_StringCompression.java",
+    "src/y2026/m08/D24_SumGame.java",
+    "src/y2026/m08/D25_EqualRowAndColumnPairs.java",
+    "src/y2026/m08/D31_FindTheMinimumAndMaximumNumberOfNodesBetweenCriticalPoints.java",
+    "src/y2026/m09/D04_SmallestStableIndex1.java",
+    "src/y2026/m09/D05_SmallestStableIndex2.java",
+    "src/y2026/m09/D07_DecodeString.java",
+    "src/y2026/m09/D07_Dota2Senate.java",
+    "src/y2026/m09/D08_CountCommasInRange.java",
+    "src/y2026/m09/D10_CountNodesEqualToAverageOfSubtree.java",
+    "src/y2026/m09/D11_Unigue3DigitEvenNumbers.java",
+    "src/y2026/m09/D12_DeleteTheMiddleNodeOfALinkedList.java",
+    "src/y2026/m09/D13_OddEvenLinkedList.java",
+    "src/y2026/m09/D14_RectangleOverlap.java",
+    "src/y2026/m09/D20_MaxConsecutiveOnes3.java",
+    "src/y2026/m09/D20_MaximumTwinSumofaLinkedList.java",
+    "src/y2026/m09/D22_LeafSimilarTrees.java",
+    "src/y2026/m09/D22_MaximumDepthofBinaryTree.java",
+    "src/y2026/m09/D24_SmallestIndexWithDigitSumEqualtoIndex.java",
+    "src/y2026/m10/D10_MinimumSumofSquaredDifference.java",
+    "src/y2026/m11/D11_HideCactus.java",
+    "src/y2026/m11/D12_HallOfFame.java",
+    "src/y2026/m11/D17_FeatureDevelopment.java"
+  ],
+  "problems": {
+    "leetcode:longest-substring-without-repeating-characters": {
+      "id": "leetcode:longest-substring-without-repeating-characters",
+      "platform": "leetcode",
+      "title": "Longest Substring Without Repeating Characters",
+      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+      "tags": [
+        "string",
+        "hash-map",
+        "sliding-window"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-07",
+      "last_date": "2026-08-07",
+      "file": "src/y2026/m08/D07_LongestSubstringWithoutRepeatingCharacters.java",
+      "history": [
+        {
+          "date": "2026-08-07",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:smallest-divisible-digit-product-ii": {
+      "id": "leetcode:smallest-divisible-digit-product-ii",
+      "platform": "leetcode",
+      "title": "Smallest Divisible Digit Product 2",
+      "url": "https://leetcode.com/problems/smallest-divisible-digit-product-ii",
+      "tags": [
+        "math",
+        "greedy"
+      ],
+      "difficulty": "hard",
+      "status": "unsolved",
+      "attempts": 1,
+      "first_date": "2026-08-07",
+      "last_date": "2026-08-07",
+      "file": "src/y2026/m08/D07_SmallestDivisibleDigitProduct2.java",
+      "history": [
+        {
+          "date": "2026-08-07",
+          "result": "unsolved"
+        }
+      ]
+    },
+    "leetcode:move-zeroes": {
+      "id": "leetcode:move-zeroes",
+      "platform": "leetcode",
+      "title": "Move Zeroes",
+      "url": "https://leetcode.com/problems/move-zeroes",
+      "tags": [
+        "array",
+        "two-pointers"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 2,
+      "first_date": "2026-08-09",
+      "last_date": "2026-08-18",
+      "file": "src/y2026/m08/D09_MoveZeroes.java",
+      "history": [
+        {
+          "date": "2026-08-09",
+          "result": "solved"
+        },
+        {
+          "date": "2026-08-18",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:can-place-flowers": {
+      "id": "leetcode:can-place-flowers",
+      "platform": "leetcode",
+      "title": "Can Place Flowers",
+      "url": "https://leetcode.com/problems/can-place-flowers",
+      "tags": [
+        "array",
+        "greedy"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-10",
+      "last_date": "2026-08-10",
+      "file": "src/y2026/m08/D10_CanPlaceFlowers.java",
+      "history": [
+        {
+          "date": "2026-08-10",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:greatest-common-divisor-of-strings": {
+      "id": "leetcode:greatest-common-divisor-of-strings",
+      "platform": "leetcode",
+      "title": "Greatest Common Divisor Of Strings",
+      "url": "https://leetcode.com/problems/greatest-common-divisor-of-strings",
+      "tags": [
+        "string",
+        "math"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 2,
+      "first_date": "2026-08-10",
+      "last_date": "2026-08-10",
+      "file": "src/y2026/m08/D10_GreatestCommonDivisorOfStrings.java",
+      "history": [
+        {
+          "date": "2026-08-10",
+          "result": "solved"
+        },
+        {
+          "date": "2026-08-10",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:smallest-missing-integer-greater-then-sequential-prefix-sum": {
+      "id": "leetcode:smallest-missing-integer-greater-then-sequential-prefix-sum",
+      "platform": "leetcode",
+      "title": "Smallest Missing Integer Greater Then Sequential Prefix Sum",
+      "url": null,
+      "tags": [
+        "array",
+        "hash-set",
+        "prefix-sum"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-11",
+      "last_date": "2026-08-11",
+      "file": "src/y2026/m08/D11_SmallestMissingIntegerGreaterThenSequentialPrefixSum.java",
+      "history": [
+        {
+          "date": "2026-08-11",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:length-of-longest-subarray-with-at-most-k-frequency": {
+      "id": "leetcode:length-of-longest-subarray-with-at-most-k-frequency",
+      "platform": "leetcode",
+      "title": "Length Of Longest Subarray With At Most K Frequency",
+      "url": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency",
+      "tags": [
+        "array",
+        "hash-map",
+        "sliding-window"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-12",
+      "last_date": "2026-08-12",
+      "file": "src/y2026/m08/D12_LengthOfLongestSubarrayWithAtMostKFrequency.java",
+      "history": [
+        {
+          "date": "2026-08-12",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:daily-temperatures": {
+      "id": "leetcode:daily-temperatures",
+      "platform": "leetcode",
+      "title": "Daily Temperatures",
+      "url": "https://leetcode.com/problems/daily-temperatures",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-13",
+      "last_date": "2026-08-13",
+      "file": "src/y2026/m08/D13_DailyTemperatures.java",
+      "history": [
+        {
+          "date": "2026-08-13",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:exclusive-time-of-functions": {
+      "id": "leetcode:exclusive-time-of-functions",
+      "platform": "leetcode",
+      "title": "Exclusive Time Of Functions",
+      "url": "https://leetcode.com/problems/exclusive-time-of-functions",
+      "tags": [
+        "stack",
+        "array"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-13",
+      "last_date": "2026-08-13",
+      "file": "src/y2026/m08/D13_ExclusiveTimeOfFunctions.java",
+      "history": [
+        {
+          "date": "2026-08-13",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:final-prices-with-a-special-discount-in-a-shop": {
+      "id": "leetcode:final-prices-with-a-special-discount-in-a-shop",
+      "platform": "leetcode",
+      "title": "Final Prices With A Special Discount In A Shop",
+      "url": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-13",
+      "last_date": "2026-08-13",
+      "file": "src/y2026/m08/D13_FinalPricesWithASpecialDiscountInAShop.java",
+      "history": [
+        {
+          "date": "2026-08-13",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:largest-rectangle-in-histogram": {
+      "id": "leetcode:largest-rectangle-in-histogram",
+      "platform": "leetcode",
+      "title": "Largest Rectangle In Histogram",
+      "url": "https://leetcode.com/problems/largest-rectangle-in-histogram",
+      "tags": [
+        "array",
+        "stack",
+        "monotonic-stack"
+      ],
+      "difficulty": "hard",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-14",
+      "last_date": "2026-08-14",
+      "file": "src/y2026/m08/D14_LargestRectangleInHistogram.java",
+      "history": [
+        {
+          "date": "2026-08-14",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:maximum-length-substring-with-two-occurrences": {
+      "id": "leetcode:maximum-length-substring-with-two-occurrences",
+      "platform": "leetcode",
+      "title": "Maximum Length Substring With Two Occurrences",
+      "url": null,
+      "tags": [
+        "string",
+        "hash-map",
+        "sliding-window"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-14",
+      "last_date": "2026-08-14",
+      "file": "src/y2026/m08/D14_MaximumLengthSubstringWithTwoOccurrences.java",
+      "history": [
+        {
+          "date": "2026-08-14",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:reverse-vowels-of-a-string": {
+      "id": "leetcode:reverse-vowels-of-a-string",
+      "platform": "leetcode",
+      "title": "Reverse Vowels Of A String",
+      "url": null,
+      "tags": [
+        "string",
+        "two-pointers"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-17",
+      "last_date": "2026-08-17",
+      "file": "src/y2026/m08/D17_ReverseVowelsOfAString.java",
+      "history": [
+        {
+          "date": "2026-08-17",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:container-with-most-water": {
+      "id": "leetcode:container-with-most-water",
+      "platform": "leetcode",
+      "title": "Container With Most Water",
+      "url": null,
+      "tags": [
+        "array",
+        "two-pointers",
+        "greedy"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-18",
+      "last_date": "2026-08-18",
+      "file": "src/y2026/m08/D18_ContainerWithMostWater.java",
+      "history": [
+        {
+          "date": "2026-08-18",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:find-the-largest-almost-missing-integer": {
+      "id": "leetcode:find-the-largest-almost-missing-integer",
+      "platform": "leetcode",
+      "title": "Find The Largest Almost Missing Integer",
+      "url": null,
+      "tags": [
+        "array",
+        "hash-map"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-18",
+      "last_date": "2026-08-18",
+      "file": "src/y2026/m08/D18_FindTheLargestAlmostMissingInteger.java",
+      "history": [
+        {
+          "date": "2026-08-18",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:cinema-seat-allocation": {
+      "id": "leetcode:cinema-seat-allocation",
+      "platform": "leetcode",
+      "title": "Cinema Seat Allocation",
+      "url": null,
+      "tags": [
+        "array",
+        "hash-map",
+        "greedy"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-19",
+      "last_date": "2026-08-19",
+      "file": "src/y2026/m08/D19_CinemaSeatAllocation.java",
+      "history": [
+        {
+          "date": "2026-08-19",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:max-number-of-k-sum-pairs": {
+      "id": "leetcode:max-number-of-k-sum-pairs",
+      "platform": "leetcode",
+      "title": "Max Number Of K Sum Pairs",
+      "url": null,
+      "tags": [
+        "array",
+        "hash-map",
+        "two-pointers"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-19",
+      "last_date": "2026-08-19",
+      "file": "src/y2026/m08/D19_MaxNumberOfKSumPairs.java",
+      "history": [
+        {
+          "date": "2026-08-19",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:distribute-elements-into-two-arrays-1": {
+      "id": "leetcode:distribute-elements-into-two-arrays-1",
+      "platform": "leetcode",
+      "title": "Distribute Elements Into Two Arrays 1",
+      "url": null,
+      "tags": [
+        "array",
+        "simulation"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-20",
+      "last_date": "2026-08-20",
+      "file": "src/y2026/m08/D20_DistributeElementsIntoTwoArrays1.java",
+      "history": [
+        {
+          "date": "2026-08-20",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:find-k-pairs-with-smallest-sums": {
+      "id": "leetcode:find-k-pairs-with-smallest-sums",
+      "platform": "leetcode",
+      "title": "Find K Pairs With Smallest Sums",
+      "url": null,
+      "tags": [
+        "array",
+        "heap"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-20",
+      "last_date": "2026-08-20",
+      "file": "src/y2026/m08/D20_FindKPairsWithSmallestSums.java",
+      "history": [
+        {
+          "date": "2026-08-20",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:maximum-number-of-vowels-in-a-substring-of-given-length": {
+      "id": "leetcode:maximum-number-of-vowels-in-a-substring-of-given-length",
+      "platform": "leetcode",
+      "title": "Maximum Number Of Vowels In A Substring Of Given Length",
+      "url": null,
+      "tags": [
+        "string",
+        "sliding-window"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-20",
+      "last_date": "2026-08-20",
+      "file": "src/y2026/m08/D20_MaximumNumberOfVowelsInASubstringOfGivenLength.java",
+      "history": [
+        {
+          "date": "2026-08-20",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:product-of-array-except-self": {
+      "id": "leetcode:product-of-array-except-self",
+      "platform": "leetcode",
+      "title": "Product Of Array Except Self",
+      "url": null,
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-20",
+      "last_date": "2026-08-20",
+      "file": "src/y2026/m08/D20_ProductOfArrayExceptSelf.java",
+      "history": [
+        {
+          "date": "2026-08-20",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:asteroid-collision": {
+      "id": "leetcode:asteroid-collision",
+      "platform": "leetcode",
+      "title": "Asteroid Collision",
+      "url": null,
+      "tags": [
+        "array",
+        "stack"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-21",
+      "last_date": "2026-08-21",
+      "file": "src/y2026/m08/D21_AsteroidCollision.java",
+      "history": [
+        {
+          "date": "2026-08-21",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:determine-if-two-strings-are-close": {
+      "id": "leetcode:determine-if-two-strings-are-close",
+      "platform": "leetcode",
+      "title": "Determine If Two Strings Are Close",
+      "url": null,
+      "tags": [
+        "string",
+        "hash-map",
+        "sorting"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-21",
+      "last_date": "2026-08-21",
+      "file": "src/y2026/m08/D21_DetermineIfTwoStringsAreClose.java",
+      "history": [
+        {
+          "date": "2026-08-21",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:removing-stars-from-a-string": {
+      "id": "leetcode:removing-stars-from-a-string",
+      "platform": "leetcode",
+      "title": "Removing Stars From A String",
+      "url": null,
+      "tags": [
+        "string",
+        "stack"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-21",
+      "last_date": "2026-08-21",
+      "file": "src/y2026/m08/D21_RemovingStarsFromAString.java",
+      "history": [
+        {
+          "date": "2026-08-21",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:string-compression": {
+      "id": "leetcode:string-compression",
+      "platform": "leetcode",
+      "title": "String Compression",
+      "url": null,
+      "tags": [
+        "string",
+        "two-pointers"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-21",
+      "last_date": "2026-08-21",
+      "file": "src/y2026/m08/D21_StringCompression.java",
+      "history": [
+        {
+          "date": "2026-08-21",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:sum-game": {
+      "id": "leetcode:sum-game",
+      "platform": "leetcode",
+      "title": "Sum Game",
+      "url": null,
+      "tags": [
+        "string",
+        "greedy",
+        "math"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-24",
+      "last_date": "2026-08-24",
+      "file": "src/y2026/m08/D24_SumGame.java",
+      "history": [
+        {
+          "date": "2026-08-24",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:equal-row-and-column-pairs": {
+      "id": "leetcode:equal-row-and-column-pairs",
+      "platform": "leetcode",
+      "title": "Equal Row And Column Pairs",
+      "url": null,
+      "tags": [
+        "array",
+        "matrix",
+        "hash-map"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-25",
+      "last_date": "2026-08-25",
+      "file": "src/y2026/m08/D25_EqualRowAndColumnPairs.java",
+      "history": [
+        {
+          "date": "2026-08-25",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:find-the-minimum-and-maximum-number-of-nodes-between-critical-points": {
+      "id": "leetcode:find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+      "platform": "leetcode",
+      "title": "Find The Minimum And Maximum Number Of Nodes Between Critical Points",
+      "url": null,
+      "tags": [
+        "linked-list"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-08-31",
+      "last_date": "2026-08-31",
+      "file": "src/y2026/m08/D31_FindTheMinimumAndMaximumNumberOfNodesBetweenCriticalPoints.java",
+      "history": [
+        {
+          "date": "2026-08-31",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:smallest-stable-index-i": {
+      "id": "leetcode:smallest-stable-index-i",
+      "platform": "leetcode",
+      "title": "Smallest Stable Index 1",
+      "url": "https://leetcode.com/problems/smallest-stable-index-i",
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-04",
+      "last_date": "2026-09-04",
+      "file": "src/y2026/m09/D04_SmallestStableIndex1.java",
+      "history": [
+        {
+          "date": "2026-09-04",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:smallest-stable-index-2": {
+      "id": "leetcode:smallest-stable-index-2",
+      "platform": "leetcode",
+      "title": "Smallest Stable Index 2",
+      "url": null,
+      "tags": [
+        "array",
+        "prefix-sum"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-05",
+      "last_date": "2026-09-05",
+      "file": "src/y2026/m09/D05_SmallestStableIndex2.java",
+      "history": [
+        {
+          "date": "2026-09-05",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:decode-string": {
+      "id": "leetcode:decode-string",
+      "platform": "leetcode",
+      "title": "Decode String",
+      "url": null,
+      "tags": [
+        "string",
+        "stack",
+        "recursion"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-07",
+      "file": "src/y2026/m09/D07_DecodeString.java",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:dota2-senate": {
+      "id": "leetcode:dota2-senate",
+      "platform": "leetcode",
+      "title": "Dota 2 Senate",
+      "url": "https://leetcode.com/problems/dota2-senate",
+      "tags": [
+        "string",
+        "queue",
+        "greedy"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-07",
+      "file": "src/y2026/m09/D07_Dota2Senate.java",
+      "history": [
+        {
+          "date": "2026-09-07",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:count-commas-in-range": {
+      "id": "leetcode:count-commas-in-range",
+      "platform": "leetcode",
+      "title": "Count Commas In Range",
+      "url": null,
+      "tags": [
+        "math"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-08",
+      "last_date": "2026-09-08",
+      "file": "src/y2026/m09/D08_CountCommasInRange.java",
+      "history": [
+        {
+          "date": "2026-09-08",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:count-nodes-equal-to-average-of-subtree": {
+      "id": "leetcode:count-nodes-equal-to-average-of-subtree",
+      "platform": "leetcode",
+      "title": "Count Nodes Equal To Average Of Subtree",
+      "url": "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree",
+      "tags": [
+        "tree",
+        "recursion"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-10",
+      "last_date": "2026-09-10",
+      "file": "src/y2026/m09/D10_CountNodesEqualToAverageOfSubtree.java",
+      "history": [
+        {
+          "date": "2026-09-10",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:unique-3-digit-even-numbers": {
+      "id": "leetcode:unique-3-digit-even-numbers",
+      "platform": "leetcode",
+      "title": "Unigue 3 Digit Even Numbers",
+      "url": "https://leetcode.com/problems/unique-3-digit-even-numbers",
+      "tags": [
+        "array",
+        "hash-set",
+        "math"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-11",
+      "last_date": "2026-09-11",
+      "file": "src/y2026/m09/D11_Unigue3DigitEvenNumbers.java",
+      "history": [
+        {
+          "date": "2026-09-11",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:delete-the-middle-node-of-a-linked-list": {
+      "id": "leetcode:delete-the-middle-node-of-a-linked-list",
+      "platform": "leetcode",
+      "title": "Delete The Middle Node Of A Linked List",
+      "url": null,
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-12",
+      "last_date": "2026-09-12",
+      "file": "src/y2026/m09/D12_DeleteTheMiddleNodeOfALinkedList.java",
+      "history": [
+        {
+          "date": "2026-09-12",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:odd-even-linked-list": {
+      "id": "leetcode:odd-even-linked-list",
+      "platform": "leetcode",
+      "title": "Odd Even Linked List",
+      "url": null,
+      "tags": [
+        "linked-list"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-13",
+      "last_date": "2026-09-13",
+      "file": "src/y2026/m09/D13_OddEvenLinkedList.java",
+      "history": [
+        {
+          "date": "2026-09-13",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:rectangle-overlap": {
+      "id": "leetcode:rectangle-overlap",
+      "platform": "leetcode",
+      "title": "Rectangle Overlap",
+      "url": "https://leetcode.com/problems/rectangle-overlap",
+      "tags": [
+        "math"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-14",
+      "last_date": "2026-09-14",
+      "file": "src/y2026/m09/D14_RectangleOverlap.java",
+      "history": [
+        {
+          "date": "2026-09-14",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:max-consecutive-ones-iii": {
+      "id": "leetcode:max-consecutive-ones-iii",
+      "platform": "leetcode",
+      "title": "Max Consecutive Ones 3",
+      "url": "https://leetcode.com/problems/max-consecutive-ones-iii",
+      "tags": [
+        "array",
+        "sliding-window"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-20",
+      "last_date": "2026-09-20",
+      "file": "src/y2026/m09/D20_MaxConsecutiveOnes3.java",
+      "history": [
+        {
+          "date": "2026-09-20",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:maximum-twin-sum-of-a-linked-list": {
+      "id": "leetcode:maximum-twin-sum-of-a-linked-list",
+      "platform": "leetcode",
+      "title": "Maximum Twin Sumofa Linked List",
+      "url": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list",
+      "tags": [
+        "linked-list",
+        "two-pointers",
+        "stack"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-20",
+      "last_date": "2026-09-20",
+      "file": "src/y2026/m09/D20_MaximumTwinSumofaLinkedList.java",
+      "history": [
+        {
+          "date": "2026-09-20",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:leaf-similar-trees": {
+      "id": "leetcode:leaf-similar-trees",
+      "platform": "leetcode",
+      "title": "Leaf Similar Trees",
+      "url": null,
+      "tags": [
+        "tree",
+        "recursion"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-22",
+      "last_date": "2026-09-22",
+      "file": "src/y2026/m09/D22_LeafSimilarTrees.java",
+      "history": [
+        {
+          "date": "2026-09-22",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:maximum-depth-of-binary-tree": {
+      "id": "leetcode:maximum-depth-of-binary-tree",
+      "platform": "leetcode",
+      "title": "Maximum Depthof Binary Tree",
+      "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree",
+      "tags": [
+        "tree",
+        "recursion"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-22",
+      "last_date": "2026-09-22",
+      "file": "src/y2026/m09/D22_MaximumDepthofBinaryTree.java",
+      "history": [
+        {
+          "date": "2026-09-22",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:smallest-index-with-digit-sum-equalto-index": {
+      "id": "leetcode:smallest-index-with-digit-sum-equalto-index",
+      "platform": "leetcode",
+      "title": "Smallest Index With Digit Sum Equalto Index",
+      "url": null,
+      "tags": [
+        "array",
+        "math"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-09-24",
+      "last_date": "2026-09-24",
+      "file": "src/y2026/m09/D24_SmallestIndexWithDigitSumEqualtoIndex.java",
+      "history": [
+        {
+          "date": "2026-09-24",
+          "result": "solved"
+        }
+      ]
+    },
+    "leetcode:minimum-sumof-squared-difference": {
+      "id": "leetcode:minimum-sumof-squared-difference",
+      "platform": "leetcode",
+      "title": "Minimum Sumof Squared Difference",
+      "url": null,
+      "tags": [
+        "array",
+        "heap",
+        "sorting",
+        "greedy"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-10-10",
+      "last_date": "2026-10-10",
+      "file": "src/y2026/m10/D10_MinimumSumofSquaredDifference.java",
+      "history": [
+        {
+          "date": "2026-10-10",
+          "result": "solved"
+        }
+      ]
+    },
+    "programmers:468379": {
+      "id": "programmers:468379",
+      "platform": "programmers",
+      "title": "Hide Cactus",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/468379",
+      "tags": [
+        "sliding-window"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-11-11",
+      "last_date": "2026-11-11",
+      "file": "src/y2026/m11/D11_HideCactus.java",
+      "history": [
+        {
+          "date": "2026-11-11",
+          "result": "solved"
+        }
+      ]
+    },
+    "programmers:138477": {
+      "id": "programmers:138477",
+      "platform": "programmers",
+      "title": "Hall Of Fame",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/138477",
+      "tags": [
+        "heap",
+        "array"
+      ],
+      "difficulty": "easy",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-11-12",
+      "last_date": "2026-11-12",
+      "file": "src/y2026/m11/D12_HallOfFame.java",
+      "history": [
+        {
+          "date": "2026-11-12",
+          "result": "solved"
+        }
+      ]
+    },
+    "programmers:42586": {
+      "id": "programmers:42586",
+      "platform": "programmers",
+      "title": "Feature Development",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42586",
+      "tags": [
+        "queue",
+        "array"
+      ],
+      "difficulty": null,
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-11-17",
+      "last_date": "2026-11-17",
+      "file": "src/y2026/m11/D17_FeatureDevelopment.java",
+      "history": [
+        {
+          "date": "2026-11-17",
+          "result": "solved"
+        }
+      ]
+    }
+  },
+  "recommendations": [
+    {
+      "id": "programmers:42586",
+      "title": "기능개발",
+      "date": "2026-11-17",
+      "reason": "queue 풀이 1개뿐, 71일 경과 / 프로그래머스 비중 보강",
+      "tags": [
+        "queue",
+        "array"
+      ],
+      "difficulty": "medium",
+      "outcome": "solved"
+    }
+  ],
+  "topics": {
+    "string": {
+      "solved": 11,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-09-07"
+    },
+    "hash-map": {
+      "solved": 8,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-08-25"
+    },
+    "sliding-window": {
+      "solved": 6,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-11-11"
+    },
+    "math": {
+      "solved": 6,
+      "failed": 0,
+      "unsolved": 1,
+      "last_date": "2026-09-24"
+    },
+    "greedy": {
+      "solved": 6,
+      "failed": 0,
+      "unsolved": 1,
+      "last_date": "2026-10-10"
+    },
+    "array": {
+      "solved": 25,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-11-17"
+    },
+    "two-pointers": {
+      "solved": 7,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-09-20"
+    },
+    "hash-set": {
+      "solved": 2,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-09-11"
+    },
+    "prefix-sum": {
+      "solved": 4,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-09-05"
+    },
+    "stack": {
+      "solved": 8,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-09-20"
+    },
+    "monotonic-stack": {
+      "solved": 3,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-08-14"
+    },
+    "simulation": {
+      "solved": 1,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-08-20"
+    },
+    "heap": {
+      "solved": 3,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-11-12"
+    },
+    "sorting": {
+      "solved": 2,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-10-10"
+    },
+    "matrix": {
+      "solved": 1,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-08-25"
+    },
+    "linked-list": {
+      "solved": 4,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-09-20"
+    },
+    "recursion": {
+      "solved": 4,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-09-22"
+    },
+    "queue": {
+      "solved": 2,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-11-17"
+    },
+    "tree": {
+      "solved": 3,
+      "failed": 0,
+      "unsolved": 0,
+      "last_date": "2026-09-22"
+    }
+  },
+  "updated_at": "2026-11-17T16:36:40",
+  "retagged": true
+}
