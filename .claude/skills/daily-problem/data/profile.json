@@ -50,7 +50,8 @@
     "src/y2026/m10/D10_MinimumSumofSquaredDifference.java",
     "src/y2026/m11/D11_HideCactus.java",
     "src/y2026/m11/D12_HallOfFame.java",
-    "src/y2026/m11/D17_FeatureDevelopment.java"
+    "src/y2026/m11/D17_FeatureDevelopment.java",
+    "src/y2026/m11/D17_RotateMatrixBorder.java"
   ],
   "problems": {
     "leetcode:longest-substring-without-repeating-characters": {
@@ -1108,6 +1109,28 @@
           "result": "solved"
         }
       ]
+    },
+    "programmers:77485": {
+      "id": "programmers:77485",
+      "platform": "programmers",
+      "title": "Rotate Matrix Border",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/77485",
+      "tags": [
+        "matrix",
+        "simulation"
+      ],
+      "difficulty": null,
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-11-17",
+      "last_date": "2026-11-17",
+      "file": "src/y2026/m11/D17_RotateMatrixBorder.java",
+      "history": [
+        {
+          "date": "2026-11-17",
+          "result": "solved"
+        }
+      ]
     }
   },
   "recommendations": [
@@ -1118,6 +1141,19 @@
       "reason": "queue 풀이 1개뿐, 71일 경과 / 프로그래머스 비중 보강",
       "tags": [
         "queue",
+        "array"
+      ],
+      "difficulty": "medium",
+      "outcome": "solved"
+    },
+    {
+      "id": "programmers:77485",
+      "title": "행렬 테두리 회전하기",
+      "date": "2026-11-17",
+      "reason": "simulation/matrix 풀이 각 1개뿐이고 84~89일 지남, 프로그래머스 비중 낮음",
+      "tags": [
+        "simulation",
+        "matrix",
         "array"
       ],
       "difficulty": "medium",
@@ -1192,10 +1228,10 @@
       "last_date": "2026-08-14"
     },
     "simulation": {
-      "solved": 1,
+      "solved": 2,
       "failed": 0,
       "unsolved": 0,
-      "last_date": "2026-08-20"
+      "last_date": "2026-11-17"
     },
     "heap": {
       "solved": 3,
@@ -1210,10 +1246,10 @@
       "last_date": "2026-10-10"
     },
     "matrix": {
-      "solved": 1,
+      "solved": 2,
       "failed": 0,
       "unsolved": 0,
-      "last_date": "2026-08-25"
+      "last_date": "2026-11-17"
     },
     "linked-list": {
       "solved": 4,
@@ -1240,6 +1276,6 @@
       "last_date": "2026-09-22"
     }
   },
-  "updated_at": "2026-11-17T16:36:40",
+  "updated_at": "2026-11-17T22:33:26",
   "retagged": true
 }
