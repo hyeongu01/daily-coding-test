@@ -1131,6 +1131,30 @@
           "result": "solved"
         }
       ]
+    },
+    "leetcode:count-good-nodes-in-binary-tree": {
+      "id": "leetcode:count-good-nodes-in-binary-tree",
+      "platform": "leetcode",
+      "title": "Count Good Nodes in Binary Tree",
+      "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree",
+      "tags": [
+        "recursion",
+        "tree"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-11-18",
+      "last_date": "2026-11-18",
+      "file": null,
+      "history": [
+        {
+          "date": "2026-11-18",
+          "result": "solved",
+          "minutes": 11,
+          "note": "반복 DFS(스택), 노드 val 을 경로 최댓값으로 덮어씀"
+        }
+      ]
     }
   },
   "recommendations": [
@@ -1155,6 +1179,18 @@
         "simulation",
         "matrix",
         "array"
+      ],
+      "difficulty": "medium",
+      "outcome": "solved"
+    },
+    {
+      "id": "leetcode:count-good-nodes-in-binary-tree",
+      "title": "Count Good Nodes in Binary Tree",
+      "date": "2026-11-18",
+      "reason": "tree 풀이 3개(easy 위주)뿐이고 57일 지남",
+      "tags": [
+        "tree",
+        "recursion"
       ],
       "difficulty": "medium",
       "outcome": "solved"
@@ -1258,10 +1294,10 @@
       "last_date": "2026-09-20"
     },
     "recursion": {
-      "solved": 4,
+      "solved": 5,
       "failed": 0,
       "unsolved": 0,
-      "last_date": "2026-09-22"
+      "last_date": "2026-11-18"
     },
     "queue": {
       "solved": 2,
@@ -1270,12 +1306,12 @@
       "last_date": "2026-11-17"
     },
     "tree": {
-      "solved": 3,
+      "solved": 4,
       "failed": 0,
       "unsolved": 0,
-      "last_date": "2026-09-22"
+      "last_date": "2026-11-18"
     }
   },
-  "updated_at": "2026-11-17T22:33:26",
+  "updated_at": "2026-11-18T23:57:27",
   "retagged": true
 }
