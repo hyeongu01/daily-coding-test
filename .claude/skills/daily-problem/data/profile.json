@@ -51,7 +51,9 @@
     "src/y2026/m11/D11_HideCactus.java",
     "src/y2026/m11/D12_HallOfFame.java",
     "src/y2026/m11/D17_FeatureDevelopment.java",
-    "src/y2026/m11/D17_RotateMatrixBorder.java"
+    "src/y2026/m11/D17_RotateMatrixBorder.java",
+    "src/y2026/m11/D18_CountGoodNodesInBinaryTree.java",
+    "src/y2026/m11/D20_CutRollCake.java"
   ],
   "problems": {
     "leetcode:longest-substring-without-repeating-characters": {
@@ -1143,16 +1145,42 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
+      "attempts": 2,
       "first_date": "2026-11-18",
       "last_date": "2026-11-18",
-      "file": null,
+      "file": "src/y2026/m11/D18_CountGoodNodesInBinaryTree.java",
       "history": [
         {
           "date": "2026-11-18",
           "result": "solved",
           "minutes": 11,
           "note": "반복 DFS(스택), 노드 val 을 경로 최댓값으로 덮어씀"
+        },
+        {
+          "date": "2026-11-18",
+          "result": "solved"
+        }
+      ]
+    },
+    "programmers:132265": {
+      "id": "programmers:132265",
+      "platform": "programmers",
+      "title": "Cut Roll Cake",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/132265",
+      "tags": [
+        "hash-map",
+        "hash-set"
+      ],
+      "difficulty": null,
+      "status": "solved",
+      "attempts": 1,
+      "first_date": "2026-11-20",
+      "last_date": "2026-11-20",
+      "file": "src/y2026/m11/D20_CutRollCake.java",
+      "history": [
+        {
+          "date": "2026-11-20",
+          "result": "solved"
         }
       ]
     }
@@ -1194,6 +1222,18 @@
       ],
       "difficulty": "medium",
       "outcome": "solved"
+    },
+    {
+      "id": "programmers:132265",
+      "title": "롤케이크 자르기",
+      "date": "2026-11-20",
+      "reason": "hash-set 풀이 2개뿐이고 70일 지남, 프로그래머스 비중 낮음",
+      "tags": [
+        "hash-set",
+        "hash-map"
+      ],
+      "difficulty": "medium",
+      "outcome": "solved"
     }
   ],
   "topics": {
@@ -1204,10 +1244,10 @@
       "last_date": "2026-09-07"
     },
     "hash-map": {
-      "solved": 8,
+      "solved": 9,
       "failed": 0,
       "unsolved": 0,
-      "last_date": "2026-08-25"
+      "last_date": "2026-11-20"
     },
     "sliding-window": {
       "solved": 6,
@@ -1240,10 +1280,10 @@
       "last_date": "2026-09-20"
     },
     "hash-set": {
-      "solved": 2,
+      "solved": 3,
       "failed": 0,
       "unsolved": 0,
-      "last_date": "2026-09-11"
+      "last_date": "2026-11-20"
     },
     "prefix-sum": {
       "solved": 4,
@@ -1312,6 +1352,6 @@
       "last_date": "2026-11-18"
     }
   },
-  "updated_at": "2026-11-18T23:57:27",
+  "updated_at": "2026-11-20T03:14:50",
   "retagged": true
 }
