@@ -52,7 +52,7 @@ description: 사용자의 풀이 기록(src/y*/m*/D*.java)을 분석해 약점·
 - 사용자가 패스하면 방금 만든 스캐폴드 파일은 삭제한다(아직 마커가 있는 경우에만).
 
 ### 2. 결과 반영
-- **푼 경우 (스캐폴드의 `TODO(daily-problem)` 마커를 지우고 풀이를 채운 경우)**: 별도 작업 불필요. 다음 `brief` 때 `sync` 가 자동 반영한다. 즉시 반영하려면 `profile.py sync`. 단, 풀이 시간/난이도 체감을 말해 주면 `record` 로 남긴다.
+- **푼 경우 (스캐폴드의 `TODO(daily-problem)` 마커를 지우고 풀이를 채운 경우)**: 풀이 평가는 `solution-review` 스킬이 맡는다("다 풀었어" 하면 그 스킬을 호출). 이 스킬에서는 프로필 반영만 한다. 별도 작업 불필요. 다음 `brief` 때 `sync` 가 자동 반영한다. 즉시 반영하려면 `profile.py sync`. 단, 풀이 시간/난이도 체감을 말해 주면 `record` 로 남긴다.
 - **못 푼 경우 / 포기**: `profile.py record --result gave_up --id <id> --title "<제목>" --url <URL> --tags a,b --difficulty medium --note "막힌 지점"` 
   (id 를 모르면 `--platform leetcode --slug <slug>`). gave_up 은 복습 큐에 들어가고 해당 태그의 우선순위를 올린다.
 - **패스/스킵**: `--result skipped`. 상태는 바꾸지 않고 이력만 남긴다.
