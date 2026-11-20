@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "initialized_at": "2026-11-17T16:08:27",
   "known_files": [
     "src/y2026/m08/D07_LongestSubstringWithoutRepeatingCharacters.java",
@@ -53,7 +53,8 @@
     "src/y2026/m11/D17_FeatureDevelopment.java",
     "src/y2026/m11/D17_RotateMatrixBorder.java",
     "src/y2026/m11/D18_CountGoodNodesInBinaryTree.java",
-    "src/y2026/m11/D20_CutRollCake.java"
+    "src/y2026/m11/D20_CutRollCake.java",
+    "src/y2026/m11/D20_BiggerNumberBehind.java"
   ],
   "problems": {
     "leetcode:longest-substring-without-repeating-characters": {
@@ -68,7 +69,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-07",
       "last_date": "2026-08-07",
       "file": "src/y2026/m08/D07_LongestSubstringWithoutRepeatingCharacters.java",
@@ -89,15 +89,19 @@
         "greedy"
       ],
       "difficulty": "hard",
-      "status": "unsolved",
-      "attempts": 1,
+      "status": "gave_up",
       "first_date": "2026-08-07",
-      "last_date": "2026-08-07",
+      "last_date": "2026-11-20",
       "file": "src/y2026/m08/D07_SmallestDivisibleDigitProduct2.java",
       "history": [
         {
           "date": "2026-08-07",
-          "result": "unsolved"
+          "result": "solving"
+        },
+        {
+          "date": "2026-11-20",
+          "result": "gave_up",
+          "note": "README 미해결 문제로 남아 있던 것을 포기로 정리"
         }
       ]
     },
@@ -112,7 +116,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 2,
       "first_date": "2026-08-09",
       "last_date": "2026-08-18",
       "file": "src/y2026/m08/D09_MoveZeroes.java",
@@ -138,7 +141,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-10",
       "last_date": "2026-08-10",
       "file": "src/y2026/m08/D10_CanPlaceFlowers.java",
@@ -160,15 +162,10 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 2,
       "first_date": "2026-08-10",
       "last_date": "2026-08-10",
       "file": "src/y2026/m08/D10_GreatestCommonDivisorOfStrings.java",
       "history": [
-        {
-          "date": "2026-08-10",
-          "result": "solved"
-        },
         {
           "date": "2026-08-10",
           "result": "solved"
@@ -187,7 +184,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-11",
       "last_date": "2026-08-11",
       "file": "src/y2026/m08/D11_SmallestMissingIntegerGreaterThenSequentialPrefixSum.java",
@@ -210,7 +206,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-12",
       "last_date": "2026-08-12",
       "file": "src/y2026/m08/D12_LengthOfLongestSubarrayWithAtMostKFrequency.java",
@@ -233,7 +228,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-13",
       "last_date": "2026-08-13",
       "file": "src/y2026/m08/D13_DailyTemperatures.java",
@@ -255,7 +249,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-13",
       "last_date": "2026-08-13",
       "file": "src/y2026/m08/D13_ExclusiveTimeOfFunctions.java",
@@ -278,7 +271,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-13",
       "last_date": "2026-08-13",
       "file": "src/y2026/m08/D13_FinalPricesWithASpecialDiscountInAShop.java",
@@ -301,7 +293,6 @@
       ],
       "difficulty": "hard",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-14",
       "last_date": "2026-08-14",
       "file": "src/y2026/m08/D14_LargestRectangleInHistogram.java",
@@ -324,7 +315,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-14",
       "last_date": "2026-08-14",
       "file": "src/y2026/m08/D14_MaximumLengthSubstringWithTwoOccurrences.java",
@@ -346,7 +336,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-17",
       "last_date": "2026-08-17",
       "file": "src/y2026/m08/D17_ReverseVowelsOfAString.java",
@@ -369,7 +358,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-18",
       "last_date": "2026-08-18",
       "file": "src/y2026/m08/D18_ContainerWithMostWater.java",
@@ -391,7 +379,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-18",
       "last_date": "2026-08-18",
       "file": "src/y2026/m08/D18_FindTheLargestAlmostMissingInteger.java",
@@ -414,7 +401,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-19",
       "last_date": "2026-08-19",
       "file": "src/y2026/m08/D19_CinemaSeatAllocation.java",
@@ -437,7 +423,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-19",
       "last_date": "2026-08-19",
       "file": "src/y2026/m08/D19_MaxNumberOfKSumPairs.java",
@@ -459,7 +444,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-20",
       "last_date": "2026-08-20",
       "file": "src/y2026/m08/D20_DistributeElementsIntoTwoArrays1.java",
@@ -481,7 +465,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-20",
       "last_date": "2026-08-20",
       "file": "src/y2026/m08/D20_FindKPairsWithSmallestSums.java",
@@ -503,7 +486,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-20",
       "last_date": "2026-08-20",
       "file": "src/y2026/m08/D20_MaximumNumberOfVowelsInASubstringOfGivenLength.java",
@@ -525,7 +507,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-20",
       "last_date": "2026-08-20",
       "file": "src/y2026/m08/D20_ProductOfArrayExceptSelf.java",
@@ -547,7 +528,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-21",
       "last_date": "2026-08-21",
       "file": "src/y2026/m08/D21_AsteroidCollision.java",
@@ -570,7 +550,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-21",
       "last_date": "2026-08-21",
       "file": "src/y2026/m08/D21_DetermineIfTwoStringsAreClose.java",
@@ -592,7 +571,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-21",
       "last_date": "2026-08-21",
       "file": "src/y2026/m08/D21_RemovingStarsFromAString.java",
@@ -614,7 +592,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-21",
       "last_date": "2026-08-21",
       "file": "src/y2026/m08/D21_StringCompression.java",
@@ -637,7 +614,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-24",
       "last_date": "2026-08-24",
       "file": "src/y2026/m08/D24_SumGame.java",
@@ -660,7 +636,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-25",
       "last_date": "2026-08-25",
       "file": "src/y2026/m08/D25_EqualRowAndColumnPairs.java",
@@ -681,7 +656,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-08-31",
       "last_date": "2026-08-31",
       "file": "src/y2026/m08/D31_FindTheMinimumAndMaximumNumberOfNodesBetweenCriticalPoints.java",
@@ -703,7 +677,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-04",
       "last_date": "2026-09-04",
       "file": "src/y2026/m09/D04_SmallestStableIndex1.java",
@@ -725,7 +698,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-05",
       "last_date": "2026-09-05",
       "file": "src/y2026/m09/D05_SmallestStableIndex2.java",
@@ -748,7 +720,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-07",
       "last_date": "2026-09-07",
       "file": "src/y2026/m09/D07_DecodeString.java",
@@ -771,7 +742,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-07",
       "last_date": "2026-09-07",
       "file": "src/y2026/m09/D07_Dota2Senate.java",
@@ -792,7 +762,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-08",
       "last_date": "2026-09-08",
       "file": "src/y2026/m09/D08_CountCommasInRange.java",
@@ -814,7 +783,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-10",
       "last_date": "2026-09-10",
       "file": "src/y2026/m09/D10_CountNodesEqualToAverageOfSubtree.java",
@@ -837,7 +805,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-11",
       "last_date": "2026-09-11",
       "file": "src/y2026/m09/D11_Unigue3DigitEvenNumbers.java",
@@ -859,7 +826,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-12",
       "last_date": "2026-09-12",
       "file": "src/y2026/m09/D12_DeleteTheMiddleNodeOfALinkedList.java",
@@ -880,7 +846,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-13",
       "last_date": "2026-09-13",
       "file": "src/y2026/m09/D13_OddEvenLinkedList.java",
@@ -901,7 +866,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-14",
       "last_date": "2026-09-14",
       "file": "src/y2026/m09/D14_RectangleOverlap.java",
@@ -923,7 +887,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-20",
       "last_date": "2026-09-20",
       "file": "src/y2026/m09/D20_MaxConsecutiveOnes3.java",
@@ -946,7 +909,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-20",
       "last_date": "2026-09-20",
       "file": "src/y2026/m09/D20_MaximumTwinSumofaLinkedList.java",
@@ -968,7 +930,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-22",
       "last_date": "2026-09-22",
       "file": "src/y2026/m09/D22_LeafSimilarTrees.java",
@@ -990,7 +951,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-22",
       "last_date": "2026-09-22",
       "file": "src/y2026/m09/D22_MaximumDepthofBinaryTree.java",
@@ -1012,7 +972,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-09-24",
       "last_date": "2026-09-24",
       "file": "src/y2026/m09/D24_SmallestIndexWithDigitSumEqualtoIndex.java",
@@ -1036,7 +995,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-10-10",
       "last_date": "2026-10-10",
       "file": "src/y2026/m10/D10_MinimumSumofSquaredDifference.java",
@@ -1057,7 +1015,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-11-11",
       "last_date": "2026-11-11",
       "file": "src/y2026/m11/D11_HideCactus.java",
@@ -1079,7 +1036,6 @@
       ],
       "difficulty": "easy",
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-11-12",
       "last_date": "2026-11-12",
       "file": "src/y2026/m11/D12_HallOfFame.java",
@@ -1101,7 +1057,6 @@
       ],
       "difficulty": null,
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-11-17",
       "last_date": "2026-11-17",
       "file": "src/y2026/m11/D17_FeatureDevelopment.java",
@@ -1123,7 +1078,6 @@
       ],
       "difficulty": null,
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-11-17",
       "last_date": "2026-11-17",
       "file": "src/y2026/m11/D17_RotateMatrixBorder.java",
@@ -1145,7 +1099,6 @@
       ],
       "difficulty": "medium",
       "status": "solved",
-      "attempts": 2,
       "first_date": "2026-11-18",
       "last_date": "2026-11-18",
       "file": "src/y2026/m11/D18_CountGoodNodesInBinaryTree.java",
@@ -1155,10 +1108,6 @@
           "result": "solved",
           "minutes": 11,
           "note": "반복 DFS(스택), 노드 val 을 경로 최댓값으로 덮어씀"
-        },
-        {
-          "date": "2026-11-18",
-          "result": "solved"
         }
       ]
     },
@@ -1173,7 +1122,6 @@
       ],
       "difficulty": null,
       "status": "solved",
-      "attempts": 1,
       "first_date": "2026-11-20",
       "last_date": "2026-11-20",
       "file": "src/y2026/m11/D20_CutRollCake.java",
@@ -1181,6 +1129,30 @@
         {
           "date": "2026-11-20",
           "result": "solved"
+        }
+      ]
+    },
+    "programmers:154539": {
+      "id": "programmers:154539",
+      "platform": "programmers",
+      "title": "Bigger Number Behind",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/154539",
+      "tags": [
+        "monotonic-stack",
+        "stack",
+        "array"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "first_date": "2026-11-20",
+      "last_date": "2026-11-20",
+      "file": "src/y2026/m11/D20_BiggerNumberBehind.java",
+      "history": [
+        {
+          "date": "2026-11-20",
+          "result": "solved",
+          "minutes": 18,
+          "note": "접근 고민은 있었으나 구현은 쉬웠음 (스캐폴드 생성~마지막 저장 기준 약 18분)"
         }
       ]
     }
@@ -1234,124 +1206,137 @@
       ],
       "difficulty": "medium",
       "outcome": "solved"
+    },
+    {
+      "id": "programmers:154539",
+      "title": "뒤에 있는 큰 수 찾기",
+      "date": "2026-11-20",
+      "reason": "monotonic-stack 98일 방치, 프로그래머스 비중 낮음",
+      "tags": [
+        "monotonic-stack",
+        "stack",
+        "array"
+      ],
+      "difficulty": "medium",
+      "outcome": "solved"
     }
   ],
   "topics": {
     "string": {
       "solved": 11,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-09-07"
     },
     "hash-map": {
       "solved": 9,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-11-20"
     },
     "sliding-window": {
       "solved": 6,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-11-11"
     },
     "math": {
       "solved": 6,
-      "failed": 0,
-      "unsolved": 1,
-      "last_date": "2026-09-24"
+      "gave_up": 1,
+      "solving": 0,
+      "last_date": "2026-11-20"
     },
     "greedy": {
       "solved": 6,
-      "failed": 0,
-      "unsolved": 1,
-      "last_date": "2026-10-10"
+      "gave_up": 1,
+      "solving": 0,
+      "last_date": "2026-11-20"
     },
     "array": {
-      "solved": 25,
-      "failed": 0,
-      "unsolved": 0,
-      "last_date": "2026-11-17"
+      "solved": 26,
+      "gave_up": 0,
+      "solving": 0,
+      "last_date": "2026-11-20"
     },
     "two-pointers": {
       "solved": 7,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-09-20"
     },
     "hash-set": {
       "solved": 3,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-11-20"
     },
     "prefix-sum": {
       "solved": 4,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-09-05"
     },
     "stack": {
-      "solved": 8,
-      "failed": 0,
-      "unsolved": 0,
-      "last_date": "2026-09-20"
+      "solved": 9,
+      "gave_up": 0,
+      "solving": 0,
+      "last_date": "2026-11-20"
     },
     "monotonic-stack": {
-      "solved": 3,
-      "failed": 0,
-      "unsolved": 0,
-      "last_date": "2026-08-14"
+      "solved": 4,
+      "gave_up": 0,
+      "solving": 0,
+      "last_date": "2026-11-20"
     },
     "simulation": {
       "solved": 2,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-11-17"
     },
     "heap": {
       "solved": 3,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-11-12"
     },
     "sorting": {
       "solved": 2,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-10-10"
     },
     "matrix": {
       "solved": 2,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-11-17"
     },
     "linked-list": {
       "solved": 4,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-09-20"
     },
     "recursion": {
       "solved": 5,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-11-18"
     },
     "queue": {
       "solved": 2,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-11-17"
     },
     "tree": {
       "solved": 4,
-      "failed": 0,
-      "unsolved": 0,
+      "gave_up": 0,
+      "solving": 0,
       "last_date": "2026-11-18"
     }
   },
-  "updated_at": "2026-11-20T03:14:50",
+  "updated_at": "2026-11-20T10:04:44",
   "retagged": true
 }

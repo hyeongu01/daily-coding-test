@@ -4,7 +4,7 @@
 서브커맨드
   init   [--force]   src/ 의 풀이 파일을 전부 분석해 data/profile.json 을 최초 생성
   sync               init 이후 새로 추가된 풀이 파일을 profile 에 반영 (= solved 처리)
-  record             풀이 결과(solved/failed/skipped)를 직접 기록
+  record             풀이 상태(solved=품 / gave_up=포기 / solving=푸는중, skipped=패스 이력만)를 직접 기록
   log-rec            추천한 문제를 이력에 기록 (중복 추천 방지용)
   brief              추천에 쓸 요약(JSON)을 stdout 으로 출력 (sync 를 자동 수행)
 
@@ -65,7 +65,33 @@ def today():
 def load():
     if not PROFILE.exists():
         sys.exit("profile.json 이 없습니다. 먼저 `python profile.py init` 을 실행하세요.")
-    return json.loads(PROFILE.read_text(encoding="utf-8"))
+    p = json.loads(PROFILE.read_text(encoding="utf-8"))
+    migrate(p)
+    return p
+
+
+STATUS_RENAME = {"failed": "gave_up", "unsolved": "solving"}
+
+
+def migrate(p):
+    """v1 -> v2: attempts 제거, 상태명 변경(failed->gave_up, unsolved->solving), 같은 날 중복 이력 병합."""
+    if p.get("version", 1) >= 2:
+        return
+    for e in p["problems"].values():
+        e.pop("attempts", None)
+        e["status"] = STATUS_RENAME.get(e["status"], e["status"])
+        merged = []
+        for h in e["history"]:
+            h["result"] = STATUS_RENAME.get(h["result"], h["result"])
+            if merged and merged[-1]["date"] == h["date"] and merged[-1]["result"] == h["result"]:
+                merged[-1].update(h)
+            else:
+                merged.append(h)
+        e["history"] = merged
+    for r in p["recommendations"]:
+        if r.get("outcome") in STATUS_RENAME:
+            r["outcome"] = STATUS_RENAME[r["outcome"]]
+    p["version"] = 2
 
 
 def save(p):
@@ -170,8 +196,7 @@ def new_entry(info, status):
     return {
         "id": info["id"], "platform": info["platform"], "title": info["title"],
         "url": info["url"], "tags": info["tags"], "difficulty": None,
-        "status": status,  # solved | failed | unsolved
-        "attempts": 1,
+        "status": status,  # solved(품) | gave_up(포기) | solving(푸는중)
         "first_date": info["solved_date"], "last_date": info["solved_date"],
         "file": info.get("file"),
         "history": [{"date": info["solved_date"], "result": status}],
@@ -185,16 +210,15 @@ def cmd_init(a):
     problems = {}
     infos = scan()
     for info in infos:
-        status = "unsolved" if info["id"] in unsolved else "solved"
+        status = "solving" if info["id"] in unsolved else "solved"
         e = problems.get(info["id"])
         if e:  # 같은 문제를 여러 번 푼 경우
-            e["attempts"] += 1
             e["last_date"] = max(e["last_date"], info["solved_date"])
             e["history"].append({"date": info["solved_date"], "result": status})
             e["tags"] = sorted(set(e["tags"]) | set(info["tags"]))
         else:
             problems[info["id"]] = new_entry(info, status)
-    p = {"version": 1, "initialized_at": datetime.now().isoformat(timespec="seconds"),
+    p = {"version": 2, "initialized_at": datetime.now().isoformat(timespec="seconds"),
          "known_files": [i["file"] for i in infos], "problems": problems,
          "recommendations": [], "topics": {}}
     save(p)
@@ -211,7 +235,6 @@ def cmd_sync(a=None, quiet=False):
         p["known_files"].append(info["file"])
         e = p["problems"].get(info["id"])
         if e:
-            e["attempts"] += 1
             e["status"] = "solved"
             e["last_date"] = max(e["last_date"], info["solved_date"])
             e["history"].append({"date": info["solved_date"], "result": "solved"})
@@ -237,12 +260,10 @@ def cmd_record(a):
     e = p["problems"].get(pid)
     if not e:
         e = {"id": pid, "platform": a.platform or pid.split(":")[0], "title": a.title or pid,
-             "url": a.url, "tags": tags, "difficulty": a.difficulty, "status": "unsolved",
-             "attempts": 0, "first_date": d, "last_date": d, "file": None, "history": []}
+             "url": a.url, "tags": tags, "difficulty": a.difficulty, "status": "solving",
+             "first_date": d, "last_date": d, "file": None, "history": []}
         p["problems"][pid] = e
     if a.result != "skipped":
-        e["attempts"] += 1
-    if a.result in ("solved", "failed"):
         e["status"] = a.result
     e["last_date"] = d
     if tags:
@@ -254,12 +275,16 @@ def cmd_record(a):
         h["minutes"] = a.minutes
     if a.note:
         h["note"] = a.note
-    e["history"].append(h)
+    last = e["history"][-1] if e["history"] else None
+    if last and last["date"] == d and last["result"] == a.result:
+        last.update(h)  # 같은 날 같은 결과(sync 가 먼저 남긴 항목 등)는 새 이력 대신 보강
+    else:
+        e["history"].append(h)
     for r in p["recommendations"]:
         if r["id"] == pid and r["outcome"] is None:
             r["outcome"] = a.result
     save(p)
-    print(f"기록: {pid} -> {a.result} (누적 시도 {e['attempts']})")
+    print(f"기록: {pid} -> {a.result} (풀이 이력 {len(e['history'])}건)")
 
 
 def cmd_retag(a):
@@ -304,7 +329,7 @@ def recompute_topics(p):
     topics = {}
     for e in p["problems"].values():
         for t in e["tags"]:
-            s = topics.setdefault(t, {"solved": 0, "failed": 0, "unsolved": 0, "last_date": "0000-00-00"})
+            s = topics.setdefault(t, {"solved": 0, "gave_up": 0, "solving": 0, "last_date": "0000-00-00"})
             s[e["status"]] += 1
             s["last_date"] = max(s["last_date"], e["last_date"])
     p["topics"] = topics
@@ -319,8 +344,8 @@ def cmd_brief(a):
     probs = list(p["problems"].values())
     ranked = []
     for t, s in p["topics"].items():
-        attempts = s["solved"] + s["failed"] + s["unsolved"]
-        fail_rate = (s["failed"] + s["unsolved"]) / attempts if attempts else 0
+        total = s["solved"] + s["gave_up"] + s["solving"]
+        fail_rate = (s["gave_up"] + s["solving"]) / total if total else 0
         stale = days_since(s["last_date"]) if s["last_date"] != "0000-00-00" else 999
         # 적게 풀었고 + 실패율 높고 + 오래 안 건드린 주제일수록 높은 우선순위
         priority = round(2 / (1 + s["solved"]) + fail_rate * 3 + min(stale, 60) / 30, 2)
@@ -331,7 +356,7 @@ def cmd_brief(a):
 
     retry = [{"id": e["id"], "title": e["title"], "url": e["url"], "status": e["status"],
               "days_since_last": days_since(e["last_date"]), "tags": e["tags"]}
-             for e in probs if e["status"] in ("failed", "unsolved")]
+             for e in probs if e["status"] in ("gave_up", "solving")]
     retry.sort(key=lambda x: -x["days_since_last"])
 
     recent = [r["id"] for r in p["recommendations"] if days_since(r["date"]) <= 30]
@@ -340,7 +365,7 @@ def cmd_brief(a):
     out = {
         "today": today(),
         "stats": {"solved": sum(1 for e in probs if e["status"] == "solved"),
-                  "failed_or_unsolved": len(retry),
+                  "gave_up_or_solving": len(retry),
                   "last_activity": max((e["last_date"] for e in probs), default=None)},
         "weak_topics_top": weak[:6],
         "strong_topics": strong[:4],
@@ -367,7 +392,7 @@ def main():
     b = sp.add_parser("brief")
     b.set_defaults(f=cmd_brief)
     r = sp.add_parser("record")
-    r.add_argument("--result", required=True, choices=["solved", "failed", "skipped"])
+    r.add_argument("--result", required=True, choices=["solved", "gave_up", "solving", "skipped"])
     r.add_argument("--id")
     r.add_argument("--platform", choices=["leetcode", "programmers"])
     r.add_argument("--slug")
