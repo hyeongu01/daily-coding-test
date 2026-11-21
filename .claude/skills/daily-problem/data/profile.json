@@ -1155,6 +1155,29 @@
           "note": "접근 고민은 있었으나 구현은 쉬웠음 (스캐폴드 생성~마지막 저장 기준 약 18분)"
         }
       ]
+    },
+    "leetcode:next-greater-element-ii": {
+      "id": "leetcode:next-greater-element-ii",
+      "platform": "leetcode",
+      "title": "Next Greater Element II",
+      "url": "https://leetcode.com/problems/next-greater-element-ii",
+      "tags": [
+        "array",
+        "monotonic-stack",
+        "stack"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "first_date": "2026-11-21",
+      "last_date": "2026-11-21",
+      "file": null,
+      "history": [
+        {
+          "date": "2026-11-21",
+          "result": "solved",
+          "minutes": 40
+        }
+      ]
     }
   },
   "recommendations": [
@@ -1219,6 +1242,19 @@
       ],
       "difficulty": "medium",
       "outcome": "solved"
+    },
+    {
+      "id": "leetcode:next-greater-element-ii",
+      "title": "Next Greater Element II",
+      "date": "2026-11-21",
+      "reason": "어제 푼 뒤에 있는 큰 수 찾기의 원형 배열 변형 (monotonic-stack 한 단계 확장)",
+      "tags": [
+        "monotonic-stack",
+        "stack",
+        "array"
+      ],
+      "difficulty": "medium",
+      "outcome": "solved"
     }
   ],
   "topics": {
@@ -1253,10 +1289,10 @@
       "last_date": "2026-11-20"
     },
     "array": {
-      "solved": 26,
+      "solved": 27,
       "gave_up": 0,
       "solving": 0,
-      "last_date": "2026-11-20"
+      "last_date": "2026-11-21"
     },
     "two-pointers": {
       "solved": 7,
@@ -1277,16 +1313,16 @@
       "last_date": "2026-09-05"
     },
     "stack": {
-      "solved": 9,
+      "solved": 10,
       "gave_up": 0,
       "solving": 0,
-      "last_date": "2026-11-20"
+      "last_date": "2026-11-21"
     },
     "monotonic-stack": {
-      "solved": 4,
+      "solved": 5,
       "gave_up": 0,
       "solving": 0,
-      "last_date": "2026-11-20"
+      "last_date": "2026-11-21"
     },
     "simulation": {
       "solved": 2,
@@ -1337,6 +1373,6 @@
       "last_date": "2026-11-18"
     }
   },
-  "updated_at": "2026-11-20T10:11:07",
+  "updated_at": "2026-11-21T16:39:50",
   "retagged": true
 }
