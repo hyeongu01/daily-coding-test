@@ -54,7 +54,8 @@
     "src/y2026/m11/D17_RotateMatrixBorder.java",
     "src/y2026/m11/D18_CountGoodNodesInBinaryTree.java",
     "src/y2026/m11/D20_CutRollCake.java",
-    "src/y2026/m11/D20_BiggerNumberBehind.java"
+    "src/y2026/m11/D20_BiggerNumberBehind.java",
+    "src/y2026/m11/D21_NextGreaterElementII.java"
   ],
   "problems": {
     "leetcode:longest-substring-without-repeating-characters": {
@@ -1164,18 +1165,23 @@
       "tags": [
         "array",
         "monotonic-stack",
+        "monotonic-stack/deque",
         "stack"
       ],
       "difficulty": "medium",
       "status": "solved",
       "first_date": "2026-11-21",
       "last_date": "2026-11-21",
-      "file": null,
+      "file": "src/y2026/m11/D21_NextGreaterElementII.java",
       "history": [
         {
           "date": "2026-11-21",
           "result": "solved",
           "minutes": 40
+        },
+        {
+          "date": "2026-11-21",
+          "result": "solved"
         }
       ]
     }
@@ -1255,6 +1261,19 @@
       ],
       "difficulty": "medium",
       "outcome": "solved"
+    },
+    {
+      "id": "leetcode:subarray-sum-equals-k",
+      "title": "Subarray Sum Equals K",
+      "date": "2026-11-23",
+      "reason": "prefix-sum 79일 방치(약점 1순위), 기존 easy 위주 → medium 한 단계",
+      "tags": [
+        "prefix-sum",
+        "hash-map",
+        "array"
+      ],
+      "difficulty": "medium",
+      "outcome": null
     }
   ],
   "topics": {
@@ -1371,8 +1390,14 @@
       "gave_up": 0,
       "solving": 0,
       "last_date": "2026-11-18"
+    },
+    "monotonic-stack/deque": {
+      "solved": 1,
+      "gave_up": 0,
+      "solving": 0,
+      "last_date": "2026-11-21"
     }
   },
-  "updated_at": "2026-11-21T16:39:50",
+  "updated_at": "2026-11-23T21:22:21",
   "retagged": true
 }
