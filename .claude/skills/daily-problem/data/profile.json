@@ -55,7 +55,8 @@
     "src/y2026/m11/D18_CountGoodNodesInBinaryTree.java",
     "src/y2026/m11/D20_CutRollCake.java",
     "src/y2026/m11/D20_BiggerNumberBehind.java",
-    "src/y2026/m11/D21_NextGreaterElementII.java"
+    "src/y2026/m11/D21_NextGreaterElementII.java",
+    "src/y2026/m11/D23_SubarraySumEqualsK.java"
   ],
   "problems": {
     "leetcode:longest-substring-without-repeating-characters": {
@@ -1184,6 +1185,45 @@
           "result": "solved"
         }
       ]
+    },
+    "leetcode:subarray-sum-equals-k": {
+      "id": "leetcode:subarray-sum-equals-k",
+      "platform": "leetcode",
+      "title": "Subarray Sum Equals K",
+      "url": "https://leetcode.com/problems/subarray-sum-equals-k",
+      "tags": [
+        "array",
+        "prefix-sum",
+        "hash-map"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "first_date": "2026-11-23",
+      "last_date": "2026-11-24",
+      "file": "src/y2026/m11/D23_SubarraySumEqualsK.java",
+      "history": [
+        {
+          "date": "2026-11-23",
+          "result": "solved"
+        },
+        {
+          "date": "2026-11-24",
+          "result": "solved",
+          "minutes": 6,
+          "note": "1차 35분 시도 실패(전날), 다음 날 6분 만에 풀이. prefix-sum+hash-map 아이디어 떠올리는 데 시간 소요"
+        },
+        {
+          "date": "2026-11-23",
+          "result": "gave_up",
+          "minutes": 35,
+          "note": "35분 시도했으나 못 풂"
+        },
+        {
+          "date": "2026-11-24",
+          "result": "solved",
+          "minutes": 6
+        }
+      ]
     }
   },
   "recommendations": [
@@ -1273,7 +1313,7 @@
         "array"
       ],
       "difficulty": "medium",
-      "outcome": null
+      "outcome": "solved"
     }
   ],
   "topics": {
@@ -1284,10 +1324,10 @@
       "last_date": "2026-09-07"
     },
     "hash-map": {
-      "solved": 9,
+      "solved": 10,
       "gave_up": 0,
       "solving": 0,
-      "last_date": "2026-11-20"
+      "last_date": "2026-11-24"
     },
     "sliding-window": {
       "solved": 6,
@@ -1308,10 +1348,10 @@
       "last_date": "2026-11-20"
     },
     "array": {
-      "solved": 27,
+      "solved": 28,
       "gave_up": 0,
       "solving": 0,
-      "last_date": "2026-11-21"
+      "last_date": "2026-11-24"
     },
     "two-pointers": {
       "solved": 7,
@@ -1326,10 +1366,10 @@
       "last_date": "2026-11-20"
     },
     "prefix-sum": {
-      "solved": 4,
+      "solved": 5,
       "gave_up": 0,
       "solving": 0,
-      "last_date": "2026-09-05"
+      "last_date": "2026-11-24"
     },
     "stack": {
       "solved": 10,
@@ -1398,6 +1438,6 @@
       "last_date": "2026-11-21"
     }
   },
-  "updated_at": "2026-11-23T21:22:21",
+  "updated_at": "2026-11-24T21:05:21",
   "retagged": true
 }
