@@ -153,6 +153,7 @@ def analyze_file(path):
         "solved_date": f"{ym.group(1)}-{mm.group(1)}-{m.group(1)}",
         "file": path.relative_to(REPO).as_posix(),
         "tags": infer_tags(text),
+        "labeled": bool(LABEL_RE.search(text)),
         "inferred_id": inferred,
     }
 
@@ -233,6 +234,11 @@ def cmd_sync(a=None, quiet=False):
         if info["file"] in known:
             continue
         p["known_files"].append(info["file"])
+        # 스캐폴드는 키워드 줄 없이 만들어지므로(스포일러 방지), 라벨이 없으면
+        # 코드 추정 대신 추천 때 기록한 태그/난이도를 쓴다.
+        rec = next((r for r in reversed(p["recommendations"]) if r["id"] == info["id"]), None)
+        if rec and not info["labeled"] and rec.get("tags"):
+            info["tags"] = list(rec["tags"])
         e = p["problems"].get(info["id"])
         if e:
             e["status"] = "solved"
@@ -242,6 +248,8 @@ def cmd_sync(a=None, quiet=False):
             e["file"] = info["file"]
         else:
             p["problems"][info["id"]] = new_entry(info, "solved")
+        if rec and rec.get("difficulty") and not p["problems"][info["id"]].get("difficulty"):
+            p["problems"][info["id"]]["difficulty"] = rec["difficulty"]
         for r in p["recommendations"]:
             if r["id"] == info["id"] and r["outcome"] is None:
                 r["outcome"] = "solved"

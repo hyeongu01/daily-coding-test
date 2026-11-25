@@ -56,7 +56,8 @@
     "src/y2026/m11/D20_CutRollCake.java",
     "src/y2026/m11/D20_BiggerNumberBehind.java",
     "src/y2026/m11/D21_NextGreaterElementII.java",
-    "src/y2026/m11/D23_SubarraySumEqualsK.java"
+    "src/y2026/m11/D23_SubarraySumEqualsK.java",
+    "src/y2026/m11/D24_MakeTwoQueueSumsEqual.java"
   ],
   "problems": {
     "leetcode:longest-substring-without-repeating-characters": {
@@ -1224,6 +1225,38 @@
           "minutes": 6
         }
       ]
+    },
+    "programmers:118667": {
+      "id": "programmers:118667",
+      "platform": "programmers",
+      "title": "두 큐 합 같게 만들기",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/118667",
+      "tags": [
+        "greedy",
+        "queue",
+        "two-pointers"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "first_date": "2026-11-24",
+      "last_date": "2026-11-25",
+      "file": "src/y2026/m11/D24_MakeTwoQueueSumsEqual.java",
+      "history": [
+        {
+          "date": "2026-11-24",
+          "result": "gave_up",
+          "note": "q1+q2 이어붙인 누적합+해시맵으로 접근. 반례 2종: (1) q1에서만 꺼내는 경우(r=n) 미검사 + q1 prefix==target 조기 return이 최솟값 아님, (2) q1 원소가 q2를 거쳐 다시 넘어가는 순환 경우 미고려. 채점 1개 실패"
+        },
+        {
+          "date": "2026-11-25",
+          "result": "solved",
+          "note": "재도전 성공. q1+q2 배열 투포인터 + 모듈러로 순환 처리, l<2n && r<3n 종료"
+        },
+        {
+          "date": "2026-11-24",
+          "result": "solved"
+        }
+      ]
     }
   },
   "recommendations": [
@@ -1314,6 +1347,19 @@
       ],
       "difficulty": "medium",
       "outcome": "solved"
+    },
+    {
+      "id": "programmers:118667",
+      "title": "두 큐 합 같게 만들기",
+      "date": "2026-11-24",
+      "reason": "two-pointers 65일 방치(약점 상위), 최근 리트코드 연속 → 프로그래머스로 번갈아",
+      "tags": [
+        "two-pointers",
+        "queue",
+        "greedy"
+      ],
+      "difficulty": "medium",
+      "outcome": "gave_up"
     }
   ],
   "topics": {
@@ -1342,10 +1388,10 @@
       "last_date": "2026-11-20"
     },
     "greedy": {
-      "solved": 6,
+      "solved": 7,
       "gave_up": 1,
       "solving": 0,
-      "last_date": "2026-11-20"
+      "last_date": "2026-11-25"
     },
     "array": {
       "solved": 28,
@@ -1354,10 +1400,10 @@
       "last_date": "2026-11-24"
     },
     "two-pointers": {
-      "solved": 7,
+      "solved": 8,
       "gave_up": 0,
       "solving": 0,
-      "last_date": "2026-09-20"
+      "last_date": "2026-11-25"
     },
     "hash-set": {
       "solved": 3,
@@ -1420,10 +1466,10 @@
       "last_date": "2026-11-18"
     },
     "queue": {
-      "solved": 2,
+      "solved": 3,
       "gave_up": 0,
       "solving": 0,
-      "last_date": "2026-11-17"
+      "last_date": "2026-11-25"
     },
     "tree": {
       "solved": 4,
@@ -1438,6 +1484,6 @@
       "last_date": "2026-11-21"
     }
   },
-  "updated_at": "2026-11-24T21:05:21",
+  "updated_at": "2026-11-25T10:37:28",
   "retagged": true
 }
