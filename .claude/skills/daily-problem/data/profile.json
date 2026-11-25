@@ -57,7 +57,8 @@
     "src/y2026/m11/D20_BiggerNumberBehind.java",
     "src/y2026/m11/D21_NextGreaterElementII.java",
     "src/y2026/m11/D23_SubarraySumEqualsK.java",
-    "src/y2026/m11/D24_MakeTwoQueueSumsEqual.java"
+    "src/y2026/m11/D24_MakeTwoQueueSumsEqual.java",
+    "src/y2026/m11/D25_ReorderList.java"
   ],
   "problems": {
     "leetcode:longest-substring-without-repeating-characters": {
@@ -1257,6 +1258,29 @@
           "result": "solved"
         }
       ]
+    },
+    "leetcode:reorder-list": {
+      "id": "leetcode:reorder-list",
+      "platform": "leetcode",
+      "title": "Reorder List",
+      "url": "https://leetcode.com/problems/reorder-list",
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "first_date": "2026-11-25",
+      "last_date": "2026-11-25",
+      "file": "src/y2026/m11/D25_ReorderList.java",
+      "history": [
+        {
+          "date": "2026-11-25",
+          "result": "solved",
+          "minutes": 25,
+          "note": "Deque 양끝 번갈아 꺼내기, O(N) 공간"
+        }
+      ]
     }
   },
   "recommendations": [
@@ -1360,6 +1384,18 @@
       ],
       "difficulty": "medium",
       "outcome": "gave_up"
+    },
+    {
+      "id": "leetcode:reorder-list",
+      "title": "Reorder List",
+      "date": "2026-11-25",
+      "reason": "약점 주제 중 1순위, 66일 지남. 이미 푼 medium 과 같은 난이도에서 여러 조작을 조합",
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
+      "difficulty": "medium",
+      "outcome": "solved"
     }
   ],
   "topics": {
@@ -1400,7 +1436,7 @@
       "last_date": "2026-11-24"
     },
     "two-pointers": {
-      "solved": 8,
+      "solved": 9,
       "gave_up": 0,
       "solving": 0,
       "last_date": "2026-11-25"
@@ -1454,10 +1490,10 @@
       "last_date": "2026-11-17"
     },
     "linked-list": {
-      "solved": 4,
+      "solved": 5,
       "gave_up": 0,
       "solving": 0,
-      "last_date": "2026-09-20"
+      "last_date": "2026-11-25"
     },
     "recursion": {
       "solved": 5,
@@ -1484,6 +1520,6 @@
       "last_date": "2026-11-21"
     }
   },
-  "updated_at": "2026-11-25T10:37:28",
+  "updated_at": "2026-11-25T23:34:07",
   "retagged": true
 }
