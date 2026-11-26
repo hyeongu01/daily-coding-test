@@ -1396,6 +1396,18 @@
       ],
       "difficulty": "medium",
       "outcome": "solved"
+    },
+    {
+      "id": "programmers:42747",
+      "title": "H-Index",
+      "date": "2026-11-26",
+      "reason": "약점 주제, 47일 지남, 프로그래머스 비중 보강",
+      "tags": [
+        "sorting",
+        "array"
+      ],
+      "difficulty": "medium",
+      "outcome": null
     }
   ],
   "topics": {
@@ -1520,6 +1532,6 @@
       "last_date": "2026-11-21"
     }
   },
-  "updated_at": "2026-11-25T23:34:07",
+  "updated_at": "2026-11-26T17:35:00",
   "retagged": true
 }
