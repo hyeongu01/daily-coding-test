@@ -59,7 +59,8 @@
     "src/y2026/m11/D23_SubarraySumEqualsK.java",
     "src/y2026/m11/D24_MakeTwoQueueSumsEqual.java",
     "src/y2026/m11/D25_ReorderList.java",
-    "src/y2026/m11/D26_HIndex.java"
+    "src/y2026/m11/D26_HIndex.java",
+    "src/y2026/m11/D27_StringCompression.java"
   ],
   "problems": {
     "leetcode:longest-substring-without-repeating-characters": {
@@ -1303,6 +1304,34 @@
           "result": "solved"
         }
       ]
+    },
+    "programmers:60057": {
+      "id": "programmers:60057",
+      "platform": "programmers",
+      "title": "String Compression",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/60057",
+      "tags": [
+        "string",
+        "simulation",
+        "brute-force"
+      ],
+      "difficulty": "medium",
+      "status": "solved",
+      "first_date": "2026-11-27",
+      "last_date": "2026-11-28",
+      "file": "src/y2026/m11/D27_StringCompression.java",
+      "history": [
+        {
+          "date": "2026-11-27",
+          "result": "solved"
+        },
+        {
+          "date": "2026-11-28",
+          "result": "solved",
+          "minutes": 60,
+          "note": "접근은 빨리 떠올렸는데 구현 구상에 시간 씀. 약 1시간(사용자 추정)"
+        }
+      ]
     }
   },
   "recommendations": [
@@ -1430,14 +1459,27 @@
       ],
       "difficulty": "medium",
       "outcome": "solved"
+    },
+    {
+      "id": "programmers:60057",
+      "title": "문자열 압축",
+      "date": "2026-11-27",
+      "reason": "약점 주제 보강 - 81일 동안 안 건드림, 프로그래머스 비중 낮음",
+      "tags": [
+        "string",
+        "simulation",
+        "brute-force"
+      ],
+      "difficulty": "medium",
+      "outcome": "solved"
     }
   ],
   "topics": {
     "string": {
-      "solved": 11,
+      "solved": 12,
       "gave_up": 0,
       "solving": 0,
-      "last_date": "2026-09-07"
+      "last_date": "2026-11-28"
     },
     "hash-map": {
       "solved": 10,
@@ -1500,10 +1542,10 @@
       "last_date": "2026-11-21"
     },
     "simulation": {
-      "solved": 2,
+      "solved": 3,
       "gave_up": 0,
       "solving": 0,
-      "last_date": "2026-11-17"
+      "last_date": "2026-11-28"
     },
     "heap": {
       "solved": 3,
@@ -1552,8 +1594,14 @@
       "gave_up": 0,
       "solving": 0,
       "last_date": "2026-11-21"
+    },
+    "brute-force": {
+      "solved": 1,
+      "gave_up": 0,
+      "solving": 0,
+      "last_date": "2026-11-28"
     }
   },
-  "updated_at": "2026-11-27T10:31:04",
+  "updated_at": "2026-11-28T22:08:58",
   "retagged": true
 }
